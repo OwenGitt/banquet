@@ -1,0 +1,50 @@
+.accountPageContainer {
+  position: relative;
+  height: auto !important;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  background-color: #fdfdf8;
+}
+.userPageLayout {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.userInfo {
+  height: 100%;
+  width: 15%;
+  margin-left: 5%;
+  justify-content: center;
+  text-align: center;
+}
+.userInfoTitle {
+  font-size: 21pt;
+}
+.userInfoPicture {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.userInfoData {
+  display: flex;
+  flex-direction: column;
+}
+.userInfoName {
+  font-size: 20pt;
+  text-align: center;
+}
+.userInfoUsername {
+  font-size: 12pt;
+  font-style: oblique;
+  text-align: center;
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+}

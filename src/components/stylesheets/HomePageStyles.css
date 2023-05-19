@@ -1,0 +1,73 @@
+.homePageContainer {
+  width: 100%;
+  position: relative;
+  height: auto !important;
+  height: 100%;
+  min-height: 76.9vh;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #fdfdf8;
+  display: grid;
+  grid:
+    "image image text"
+    "image2 image2 text2";
+}
+
+.leftImageContainer {
+  grid-area: image;
+  margin-right: 10%;
+}
+
+.textArea1 {
+  grid-area: text;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: larger;
+}
+.homePageTitle {
+  font-size: 60px;
+  text-align: center;
+  color: rgb(235, 144, 41);
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: -10%;
+}
+.textArea2 {
+  grid-area: text2;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: larger;
+}
+.gettingStartedTitle {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(235, 144, 41);
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: -10%;
+}
+.rightImageContainer {
+  grid-area: image2;
+}
+
+.imageHome1 {
+  width: 800px;
+  height: 500px;
+  float: left;
+  object-fit: cover;
+  overflow: hidden;
+}
+.imageHome2 {
+  width: 800px;
+  height: 500px;
+  float: right;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: 1%;
+}

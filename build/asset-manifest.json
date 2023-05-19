@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/year3/banquet/app/static/css/main.4f5606da.css",
+    "main.js": "/year3/banquet/app/static/js/main.1b163700.js",
+    "static/js/787.c84e5baa.chunk.js": "/year3/banquet/app/static/js/787.c84e5baa.chunk.js",
+    "static/media/Capture.png": "/year3/banquet/app/static/media/Capture.a849e7dc761269b8e6a7.png",
+    "index.html": "/year3/banquet/app/index.html",
+    "main.4f5606da.css.map": "/year3/banquet/app/static/css/main.4f5606da.css.map",
+    "main.1b163700.js.map": "/year3/banquet/app/static/js/main.1b163700.js.map",
+    "787.c84e5baa.chunk.js.map": "/year3/banquet/app/static/js/787.c84e5baa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f5606da.css",
+    "static/js/main.1b163700.js"
+  ]
+}

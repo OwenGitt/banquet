@@ -1,0 +1,102 @@
+.signupPageContainer {
+  position: relative;
+  height: auto !important;
+  height: 100%;
+  min-height: 76.9vh;
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  background-color: #fdfdf8;
+}
+
+.signUpForm {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid rgb(235, 144, 41);
+  width: 40%;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+  text-align: left;
+}
+
+.formTitle {
+  font-size: 28pt;
+  font-weight: bold;
+  color: rgb(235, 144, 41);
+  text-align: center;
+}
+.formTitleSub {
+  font-size: 20pt;
+  font-weight: 500;
+  font-style: oblique 10deg;
+  color: rgb(235, 144, 41);
+  text-align: center;
+  opacity: 0.75;
+}
+.passwordBox,
+.entryBox {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.passwordBox:focus,
+.entryBox:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.signupButton,
+.cancelButton {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.signupButton:hover,
+.cancelButton:hover {
+  opacity: 1;
+}
+.cancelButton {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.cancelButton,
+.signupButton {
+  float: left;
+  width: 49%;
+}
+.cancelButton {
+  margin-right: 1%;
+}
+.signupButton {
+  margin-left: 1%;
+}
+
+.buttonContainerSignUp::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.formErrorText {
+  font-style: oblique 10deg;
+  color: #c96565;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+.passwordHelpText {
+  opacity: 0.8;
+}

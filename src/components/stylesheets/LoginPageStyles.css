@@ -1,0 +1,74 @@
+.loginPageContainer {
+  position: relative;
+  height: auto !important;
+  height: 100%;
+  min-height: 76.9vh;
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  background-color: #fdfdf8;
+}
+
+.loginForm {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid rgb(235, 144, 41);
+  width: 40%;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+  text-align: left;
+}
+.loginFormTitle {
+  font-size: 28pt;
+  font-weight: bold;
+  color: rgb(235, 144, 41);
+  text-align: center;
+}
+
+.loginButton,
+.cancelLoginButton {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.loginButton:hover,
+.cancelLoginButton:hover {
+  opacity: 1;
+}
+.cancelLoginButton {
+  padding: 14px 20px;
+  background-color: #f44336;
+  margin-right: 1%;
+}
+.cancelLoginButton,
+.loginButton {
+  float: left;
+  width: 49%;
+}
+.loginButton {
+  margin-left: 1%;
+}
+
+.loginFormErrorText {
+  font-style: oblique 10deg;
+  color: #c96565;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+.signupSuccessful {
+  text-align: center;
+  font-size: 16px;
+  font-style: oblique 10deg;
+  color: #65c965;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}

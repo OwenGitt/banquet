@@ -1,0 +1,232 @@
+/*At a certain width make it so it is vertical and at bigger width make it horizontal */
+.videoCallGrid {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.controlsGrid {
+  height: 5%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: auto;
+  margin-bottom: 1%;
+  float: left;
+}
+
+.videoContainer {
+  height: 95%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(245, 245, 245);
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: rgb(219, 219, 219);
+  padding: 10px;
+}
+
+.controlsContainerCall {
+  display: flex;
+  width: 200%;
+  height: 15%;
+  flex-direction: row;
+}
+.timerContainer {
+  width: 300%;
+  height: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: 28%;
+}
+.timerStartStop {
+  width: 20%;
+  height: 10%;
+  font-size: 11pt;
+  padding: 1%;
+  float: left;
+  background-color: rgb(235, 144, 41);
+  color: ghostwhite;
+  box-shadow: none;
+  box-sizing: unset;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 26%;
+  margin-top: 0.5%;
+}
+.timerReset {
+  width: 20%;
+  height: 10%;
+  font-size: 11pt;
+  padding: 1%;
+  float: left;
+  background-color: rgb(235, 144, 41);
+  color: ghostwhite;
+  box-shadow: none;
+  box-sizing: unset;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 4%;
+  margin-top: 0.5%;
+}
+
+.currentStepTitle {
+  font-size: 16pt;
+  color: rgb(235, 144, 41);
+  margin-bottom: -0.05%;
+}
+.currentInstructionContainer {
+  width: 35%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5%;
+}
+.stepButtons {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.nextPrevButtons {
+  width: 100%;
+  min-width: 65px;
+  height: 10%;
+  font-size: 11pt;
+  padding: 1%;
+  float: left;
+  background-color: rgb(235, 144, 41);
+  color: ghostwhite;
+  box-shadow: none;
+  box-sizing: unset;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 4%;
+  margin-top: 0.5%;
+}
+.timerStartStop:hover,
+.timerReset:hover,
+.nextPrevButtons:hover {
+  background-color: rgb(235, 130, 11);
+  cursor: pointer;
+}
+.videoCallInsAndIng {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  padding-bottom: 1%;
+  background-color: rgb(245, 245, 245);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: rgb(219, 219, 219);
+}
+.videoCallTitleContainer {
+  width: 80%;
+  font-family: helvetica, sans-serif;
+  text-align: left;
+  float: left;
+  display: flex;
+  font-weight: bold;
+  margin-top: 1.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.videoCallTitle {
+  width: 50%;
+  float: left;
+  display: flex;
+  font-size: 20pt;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: rgb(235, 144, 41);
+  font-weight: 800;
+}
+.videoCallIngredientSection {
+  position: relative;
+  max-height: 100%;
+  background-color: rgb(245, 245, 245);
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+  background-color: inherit;
+  float: left;
+  text-align: left;
+  display: flex;
+  width: 80%;
+}
+.videoCallInstructionsContainer {
+  position: relative;
+  width: 50%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  float: right;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 5%;
+  background-color: inherit;
+}
+.videoCallIngredient {
+  margin-top: 2%;
+  width: 80%;
+  background-color: inherit;
+}
+.videoCallInstructionsContainer {
+  position: relative;
+  width: 50%;
+  height: auto;
+  background-color: inherit;
+  text-align: left;
+  float: right;
+  display: flex;
+}
+.roomCodeContainer {
+  display: block;
+}
+.roomCode {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  color: rgb(235, 144, 41);
+}
+.roomCodeCode {
+  font-size: 16px;
+  display: inline-block;
+  color: rgb(235, 144, 41);
+  opacity: 0.9;
+  font-style: oblique 2deg;
+  margin-left: 0.5%;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+.roomCodeCode:hover {
+  color: rgb(231, 124, 1);
+  opacity: 0.9;
+  cursor: pointer;
+  transform: scale(1.08);
+  position: absolute;
+}
+
+.timerDisplay {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: rgb(224, 153, 72);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
